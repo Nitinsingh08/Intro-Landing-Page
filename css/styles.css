@@ -1,0 +1,91 @@
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0px !important;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif !important;
+    padding: 0px !important
+}
+
+ul {
+    padding: 0px !important;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    max-width: 270px;
+    font-weight: 700 !important;
+}
+
+img {
+    max-width: 340px;
+}
+
+p {
+    max-width: 360px;
+    font-weight: 500 !important;
+}
+
+button {
+    font-weight: 500 !important;
+}
+
+a,
+.register,
+p {
+    color: hsl(0, 0%, 41%) !important;
+}
+
+.register:hover {
+    background-color: white !important;
+}
+
+a:hover,
+.register:hover {
+    color: hsl(0, 0%, 8%) !important;
+}
+
+.learn:hover {
+    background-color: white !important;
+    color: hsl(0, 0%, 8%) !important;
+}
+
+@media only screen and (max-width:500px) {
+    .row {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .col-sm-10 {
+        text-align: center;
+        justify-content: center;
+        margin-top: 40px !important;
+    }
+    .col-sm-12 {
+        text-align: center;
+        max-width: 320px;
+        padding: 0 !important;
+    }
+    h1 {
+        margin: 0px !important;
+        line-height: 1.5 !important;
+        max-width: 400px;
+    }
+    .clist li {
+        margin-top: 38px;
+    }
+    .clients {
+        width: 50px;
+    }
+    .maker {
+        padding: 0px !important;
+    }
+    .audiophile {
+        padding: 0 1.25rem;
+    }
+    .meet {
+        padding-right: 1.25rem;
+    }
+}
